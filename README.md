@@ -10,8 +10,8 @@ There are two Rails code bases, one renders the JSON API and the other consumes 
 4. Run `client` on another port. (Eg., 3005)
 
 ### Configuration
-1. Generate a token to authentication incoming API requests on `blogger`. Visit `localhost:3000/tokens` to get valid token keys.
-2. Add the generate `access` and `secret` keys to `client/config/blogs.yml`
+1. Generate a token to authenticate incoming API requests on `blogger`. Visit `localhost:3000/tokens` to get valid token keys.
+2. Add the generated `access` and `secret` keys to `client/config/blogs.yml`
 
 ### Contribution
 1. Fork the repository and make changes.
