@@ -18,4 +18,4 @@ There are two Rails code bases, one renders the JSON API and the other consumes 
 2. Give me a pull request with a valid description.
 
 ### Support
-- Raise bugs/issues at https://github.com/swaathi/json-api-rails-example/issues
+Raise bugs/issues at https://github.com/swaathi/json-api-rails-example/issues
