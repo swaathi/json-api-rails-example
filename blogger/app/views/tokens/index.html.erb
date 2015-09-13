@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Tokens</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Access</th>
+      <th>Secret</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @tokens.each do |token| %>
+      <tr>
+        <td><%= token.access %></td>
+        <td><%= token.secret %></td>
+        <td><%= link_to 'Show', token %></td>
+        <td><%= link_to 'Edit', edit_token_path(token) %></td>
+        <td><%= link_to 'Destroy', token, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Token', new_token_path %>

@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<div>
+	<strong><%= @blog["title"] %></strong>
+	<em> by <%= @blog["byline"] %> </em>
+</div>
+<div>
+	<p><%= @blog["text"] %></p>
+</div>
+
+<%= link_to 'Back', root_path %>

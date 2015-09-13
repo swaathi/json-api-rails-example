@@ -1,0 +1,9 @@
+<h1>Listing Blogs JSON</h1>
+<% @blogs.each do |blog| %>
+	<ul>
+		<li>Title: <%= blog["title"] %></li>
+		<li>Bylilne: <%= blog["byline"] %></li>
+		<li><%= link_to "View", consumer_path(blog["id"]) %></li>
+	</ul>
+<% end %>
+
