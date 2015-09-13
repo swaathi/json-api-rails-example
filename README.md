@@ -1,5 +1,5 @@
 # json-api-rails-example
-A sample Rails application to demonstrate JSON API rendering and consumption for [GDG Indore](http://www.gdgindore.in)
+A sample Rails application to demonstrate JSON API rendering and consumption for [GDG Indore](http://www.gdgindore.in).
 
 There are two Rails code bases, one renders the JSON API and the other consumes it. `blogger` renders it's content via JSON to be consumed by the listening `client`.
 
